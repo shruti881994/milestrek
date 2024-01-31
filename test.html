@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date Availability Checker</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <style>
+    .available {
+      background-color: #aaffaa;
+    }
+    .unavailable {
+      background-color: #ffaaaa;
+    }
+  </style>
+</head>
+<body>
+
+<p>Select a date:</p>
+<input type="date" id="datepicker">
+<div id="adduserdata"></div>
+<textarea id="txtarea"></textarea>
+<input type="button" value="add text" id="add" onclick="showtext()" />
+<script>
+    function showtext(){
+ var text = document.getElementById("txtarea");
+ var showarea = document.getElementById("adduserdata");
+ showarea.innerHTML=text.value;
+}
+  // Sample available dates
+  var availableDates = ['2023-11-21', '2023-11-22', '2023-11-23', '2023-11-24'];
+
+  $(function() {
+    $("#datepicker").datepicker({
+      dateFormat: 'yy-mm-dd',
+      beforeShowDay: function(date) {
+        var stringDate = $.datepicker.formatDate('yy-mm-dd', date);
+        if ($.inArray(stringDate, availableDates) != -1) {
+          return [true, 'available', 'Available'];
+        } else {
+          return [false, 'unavailable', 'Not Available'];
+        }
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
