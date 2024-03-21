@@ -12,7 +12,7 @@ body p{
 .slider-items {
     position: relative;
 /*   slider-height */
-    height: 100vh;
+    height: 700px;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
     background-position: 0 0;
@@ -20,7 +20,7 @@ body p{
 }
 /* you can use background imgae in internal css */
 .bg-img {
-    background: url(../../assets/images/kashmir.jpg) no-repeat center;
+    background: url(assets/images/kashmir.jpg) no-repeat center;
     width: 100%;
     background-size: cover;
 } 
@@ -88,22 +88,22 @@ footer .fa:hover{
 .sigle-item.kashmr{top: 45%;}
 .collection-slide .tour-price p{color: #fff;}
 .bg-img-1 {
-    background: url(../../assets/images/banner-new.jpg) no-repeat center;
+    background: url(assets/images/banner-new.jpg) no-repeat center;
     width: 100%;
     background-size: cover;
 } 
 .bg-img-2 {
-    background: url(../../assets/images/Panshet-Camping-10.jpg) no-repeat center;
+    background: url(assets/images/Panshet-Camping-10.jpg) no-repeat center;
     width: 100%;
     background-size: cover;
 }
 .bg-img-3 {
-    background: url(../../assets/images/baneer-3.jpeg) no-repeat center;
+    background: url(assets/images/baneer-3.jpeg) no-repeat center;
     width: 100%;
     background-size: cover;
 }
 .bg-img-4 {
-    background: url(../../assets/images/Koda1-scaled.jpeg) no-repeat center;
+    background: url(assets/images/Koda1-scaled.jpeg) no-repeat center;
     width: 100%;
     background-size: cover;
 }
