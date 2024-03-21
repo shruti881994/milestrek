@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src=
+"http://code.jquery.com/jquery-1.6.2.min.js">
+	</script>
+	<script>
+		$(document).ready(() => {
+			$('#link1').click(function (e) {
+				e.target.href = `#${e.target.dataset.link}`
+			});
+			$('#link2').click(function (e) {
+				e.target.href = `#${e.target.dataset.link}`
+			});
+			$('#link3').click(function (e) {
+				e.target.href = `#${e.target.dataset.link}`
+			});
+			$('#link4').click(function (e) {
+				e.target.href = `#${e.target.dataset.link}`
+			});
+		})
+	</script>
+
+	<style>
+		div {
+			width: 50%;
+			height: 400px;
+			border: 1px solid black;
+			margin: 2rem 0;
+		}
+
+		.link {
+			text-decoration: none;
+			text-shadow: none;
+			font-size: 18px;
+			padding: 20px;
+			color: #000;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<h2>Welcome to GeeksforGeeks</h2>
+		<p>
+			This is the example of <i>Redirect
+			to a particular section using Jouery
+			on same page</i> 
+		</p>
+		<a href="#" data-link="home"
+		id="link1" class="link"> 
+		Home 
+		</a>
+		<a href="#" data-link="about"
+		id="link2" class="link"> 
+		About Us 
+		</a>
+		<a href="#" data-link="contact"
+		id="link3" class="link"> 
+		Contact Us 
+		</a>
+		<a href="#" data-link="team"
+		id="link4" class="link"> 
+		Our Team 
+		</a>
+		<div>
+			<h2 id="home">HOME</h2>
+		</div>
+		<div>
+			<h2 id="about">ABOUT US</h2>
+		</div>
+
+		<div>
+			<h2 id="contact">CONTACT US</h2>
+		</div>
+		<div>
+			<h2 id="team">OUR TEAM</h2>
+		</div>
+	</center>
+</body>
+
+</html>

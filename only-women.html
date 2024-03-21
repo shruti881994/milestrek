@@ -36,29 +36,17 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
     <!-- slick slider -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css'>
-    <!-- image gallery -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery.css'>
-      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lg-zoom.css'>
-      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.css'>
-      <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.css'> -->
-      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lg-thumbnail.css'>
-    <style>
-/*.qlinks {
-    font-family:'Droid Sans', serif;
-    font-size: 14px;
-    color: blue;
-    text-decoration: none;
-    line-height: 32px;
-}*/
-    </style>
+      <!-- animation -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+     <script src="assets/js/wow.js"></script>
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css">
   </head>
-  <body id="page-top" data-spy="scroll" data-taget=".trip-nav">
-         <div class="quick_icons">
-  <a href="tel:+917903831603" class="call">Call Us <i class="fa fa-phone phone" aria-hidden="true"></i> </a>
-  <a href="https://api.whatsapp.com/send?phone=9179038316031&amp;text=I%20am%20intrested%20!" target="_blank" class="whtsapp"><i class="fa fa-whatsapp whatsapp" aria-hidden="true"></i> Whatsapp Us </a>
+  <body class="weekend_gateway">
+     <div class="quick_icons">
+  <a href="tel:+917903831603" class="call animate__ wow animate__backInLeft animated">Call Us <i class="fa fa-phone phone" aria-hidden="true"></i> </a>
+  <a href="https://api.whatsapp.com/send?phone=9179038316031&amp;text=I%20am%20intrested%20!" target="_blank" class="whtsapp animate__ wow animate__backInRight animated"><i class="fa fa-whatsapp whatsapp" aria-hidden="true"></i> Whatsapp Us </a>
 </div>
-  <header class="header-transparent" style="z-index: 999;">
+<header class="header-transparent" style="z-index: 999;">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -127,7 +115,7 @@
       <li class="nav-item">
         <a class="nav-link link-hvr" href="index.html">HOME</a>
       </li>
-      <li class="nav-item dropdown active">
+      <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-target="destination.html" href="destination.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
          Destination
         </a><ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><li class="dropdown-submenu "><a class="dropdown-item dropdown-toggle" href="destination.html">Karnataka</a>
@@ -155,7 +143,7 @@
       
           <li class="dropdown-submenu "><a class="dropdown-item dropdown-toggle" href="">Andra Pradesh</a><ul class="dropdown-menu" id="prgrm"><li class="dropdown-submenu"><a class="dropdown-item " href="gandikota-adventure.html"> Gandikota Adventure</a></li></ul></li><li class="dropdown-submenu "><a class="dropdown-item dropdown-toggle" href="">Goa</a><ul class="dropdown-menu" id="prgrm"><li class="dropdown-submenu"><a class="dropdown-item " href="dudhsagar-trek.html">Dudhsagar Trek</a></li></ul></li><li class="dropdown-submenu "><a class="dropdown-item dropdown-toggle" href="">Maharastra</a><ul class="dropdown-menu" id="prgrm"><li class="dropdown-submenu"><a class="dropdown-item " href="kalsubai-monsoon-trek.html">Kalsubai Trek</a></li><li class="dropdown-submenu"><a class="dropdown-item " href="rajmachi-trek.html">Rajmachi Trek</a></li></ul></li><li class="dropdown-submenu "><a class="dropdown-item dropdown-toggle" href="">Jammu & Kashmir</a><ul class="dropdown-menu" id="prgrm"><li class="dropdown-submenu"><a class="dropdown-item " href="great-lakes-of-kashmir.html">Great Lakes of Kashmir</a></li><li class="dropdown-submenu"><a class="dropdown-item " href="tarsar-marsar-trek.html">Tarmar Marsar Trek</a></li><li class="dropdown-submenu"><a class="dropdown-item " href="markha-valley-trek.html">Markha Valley Trek</a></li><li class="dropdown-submenu"><a class="dropdown-item " href="kang-yatze-ii.html">Kang Yatze II</a></li></ul></li><li class="dropdown-submenu "><a class="dropdown-item dropdown-toggle" href="">Utharakhand</a><ul class="dropdown-menu" id="prgrm"><li class="dropdown-submenu"><a class="dropdown-item" href="pangarchulla-peak-trek.html">Pangarchulla Peak Trekking</a></li></ul></li><li class="dropdown-submenu "><a class="dropdown-item dropdown-toggle" href="">Himachal Pradesh</a><ul class="dropdown-menu" id="prgrm"><li class="dropdown-submenu"><a class="dropdown-item " href="beas-kund-trek.html">Beas Kund</a></li><li class="dropdown-submenu"><a class="dropdown-item " href="bhrigu-lake-trek.html">Brighu Lake Trek</a></li><li class="dropdown-submenu"><a class="dropdown-item " href="hampta-pass-trek.html">Hampta Pass Trek</a></li></ul></li><li class="dropdown-submenu "><a class="dropdown-item" href="nepal-trek.html">Nepal</a></li><li class="dropdown-submenu "><a class="dropdown-item" href="sikkim-trek.html">Sikkim</a></li></ul></li>
       
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" href="trip-types.html" id="navbarDropdown" role="button" data-target="trip-types.html" aria-haspopup="true" aria-expanded="false">
          Trip Types
         </a>
@@ -205,174 +193,385 @@
   </div>
 </header>
  <!-- partial:index.partial.html -->
-  <section class="banner-area treking">
+   <section class="banner-area women">
     <div class="container">
-      <div class="main_div">
-        <div class="gallery">
-          <div class="gallery_btn" id="animated-thumbnails-gallery">
-                <i class="fa fa-camera"></i>
-               <div class="black-50-overlay"></div>
-               <span>Photogallery</span>
-               <a class="gallery-item" data-src="assets/images/bg-video.jpeg" data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@tobbes_rd' >Tobias Rademacher </a></h4><p> Location - <a href='https://unsplash.com/s/photos/puezgruppe%2C-wolkenstein-in-gr%C3%B6den%2C-s%C3%BCdtirol%2C-italien'>Puezgruppe, Wolkenstein in Gröden, Südtirol, Italien</a>layers of blue.</p>">
-                  <img class="img-responsive" src="assets/images/bg-video.jpeg" style="display: none;" />
-               </a>
-               <a class="gallery-item" data-src="assets/images/bg-video.jpeg" data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@tobbes_rd' >Tobias Rademacher </a></h4><p> Location - <a href='https://unsplash.com/s/photos/puezgruppe%2C-wolkenstein-in-gr%C3%B6den%2C-s%C3%BCdtirol%2C-italien'>Puezgruppe, Wolkenstein in Gröden, Südtirol, Italien</a>layers of blue.</p>">
-                 <img class="img-responsive" src="assets/images/bg-video.jpeg" style="display: none;" />
-               </a>
-               <a class="gallery-item" data-src="assets/images/IMG_1231_Original-scaled.jpeg" data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@tobbes_rd' >Tobias Rademacher </a></h4><p> Location - <a href='https://unsplash.com/s/photos/puezgruppe%2C-wolkenstein-in-gr%C3%B6den%2C-s%C3%BCdtirol%2C-italien'>Puezgruppe, Wolkenstein in Gröden, Südtirol, Italien</a>layers of blue.</p>">
-                 <img class="img-responsive" src="assets/images/IMG_1231_Original-scaled.jpeg" style="display: none;" />
-               </a>
-               <a class="gallery-item" data-src="assets/images/banner-new.jpg" data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@tobbes_rd' >Tobias Rademacher </a></h4><p> Location - <a href='https://unsplash.com/s/photos/puezgruppe%2C-wolkenstein-in-gr%C3%B6den%2C-s%C3%BCdtirol%2C-italien'>Puezgruppe, Wolkenstein in Gröden, Südtirol, Italien</a>layers of blue.</p>">
-                 <img class="img-responsive" src="assets/images/banner-new.jpg" style="display: none;" />
-               </a>
-                </div>
-              
-              </div>
+      <div class="collection-slide kashmir">
 
-      <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-8 col-12">
-
-           <div class="baner_dtls">
-          <div class="coupon-code-badge" onclick="VL.scrollToCouponSection()">
-                  <div class="coupon-code">2 offers</div>
-              </div>
-          <h1 class="">Kumara Parvatha Trek and Camping</h1>
-          <div class="duration"><span><i class="icon fa fa-clock-o mr-1"></i>1 Night 1 Day</span></div>
-          <div class="quick_view mt-3" >
-            <div class="scrollable m1 menu"><div id="menu-center">
-              <i class="fa fa-chevron-left" id="prev" aria-hidden="true"></i>
-            <ul class="nav trip-nav tripnav" id="tripnav">
-             
-              <li><a href="#overview" id="link1" class="page-scroll" title="Aadrai Jungle Trek - The Unexplored Jungle Trek - overview">OVERVIEW/ITINERARY</a></li>
-    <li><a href="#dates" title="Aadrai Jungle Trek - The Unexplored Jungle Trek - dates_and_rates">DATES AND RATES</a></li>
-    <li><a href="#offers" class="page-scroll" title="Aadrai Jungle Trek - The Unexplored Jungle Trek - offers">OFFERS</a></li>
-      <li><a href="#inclusions_exclusions" class="page-scroll" title="Aadrai Jungle Trek - The Unexplored Jungle Trek - inclusions">INCLUSIONS/EXCLUSIONS</a></li>
-    <li><a href="#highlights" class="page-scroll" title="Aadrai Jungle Trek - The Unexplored Jungle Trek - highlights">THINGS TO CARRY</a></li>
-    <li><a href="#itinerary" class="page-scroll" title="Aadrai Jungle Trek - The Unexplored Jungle Trek - itinerary">FAQ</a></li>
-      <li><a href="#reviews" class="page-scroll" title="Aadrai Jungle Trek - The Unexplored Jungle Trek - Reviews">REVIEWS</a></li>
-
-        </ul>
-        <i class="fa fa-chevron-right" id="next" aria-hidden="true"></i>
-      </div>
-        
-          </div>
-        </div>
-
-        </div>
-      </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-          <div class="enquire-box">
-            <div class="enquire">
-
-
-                <a class="btn-enquire btn-block book-button default-book ga-enquiry-modal-button desktop" data-toggle="modal" data-target="#enquire-modal" title="Enquire for Aadrai Jungle Trek - The Unexplored Jungle Trek">
-
-                  Enquire now
-                </a>
-
-
-
-
-                <div class="trip-pricing">
-  <div class="pricing-wrapper">
-
-    <div class="advt-pricing-amount-suffix">
-      <span class="advt-pricing-currency-suffix"><sup>₹</sup></span>699</div>
-  
-      <div class="advt-pricing-suffix">
-          <!-- <span class="advt-pricing-suffix-content-mobile">Starting From</span> -->
-          <div class="advt-pricing-suffix-content-desktop">Starting<br>From</div>
-      </div>
+  <div class="title animate__ wow fadeInLeft animated">
+    <h1>Only women</h1>
   </div>
-</div>
 
-              
-                <div class="confidence-boosters">
-                  <ul>
-                        <li>
-                          <i class="fa fa-star"></i>
-                          Best Price Guaranteed
-</li>                        <li>
-                          <i class="fa fa-star"></i>
-                          Secure &amp; Easy Booking
-</li>                        <li>
-                          <i class="fa fa-star"></i>
-                          1000+ Happy Customers
-</li>                  </ul>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
+    <div class="hero-tagline tagline animate__ wow fadeInRight animated">Why boys should have all the fun?</div>
+
+</div>
     </div>
-     </div>
   </section>
 
-<!-- trek details section 1 -->
-<section class="main_cont trip_dtls">
+<section class="main_cont">
   <div class="container">
     <ul class="breadcrumb_sec">
           <li>
             <a href="index.html" title="Home">Home</a>
           </li>
           <li>
-            <a href="destination.html" title="Destinations">Destinations</a>
+            <a href="trip-types.html" title="Collections">Trip Types</a>
           </li>
-          <li title="Karnataka Treks">Kumara Parvatha</li>
+          <li title="Family Trips">Only Women</li>
         </ul>
-        <!-- 1st row starts -->
-       
-     <div class="row">
-      <div class="col-lg-9 col-md-9 col-sm-9 col-12">
-        <a id="overview" name="overview"></a>
-        <div class="desc" id="overview" name="overview">
-          <div class="section-title">
-            <h2>Overview/Itinerary</h2>
-          </div>
-          <div class="overview_cont">
-            <p>Pushpagiri (Kumara Parvatha), at 1,712 metres (5,617 ft), is the highest peak in Pushpagiri Wildlife Sanctuary in the Western Ghats of Karnataka. It is located in the Somwarpet Taluk, 20 kilometres from Somwarpet in the northern part of Kodagu district on the border between Dakshina Kannada and Kodagu district and hassan districts. It is 2nd highest peak of Karnataka.</p>
-            <p>The Pushpagiri or Subramanya Hills (also referred as Kumaraparvatha) is the second-highest peak of Kodagu, and sixth highest peak in Karnataka</p>
-            <p>About 36 kilometres from Somwarpet and 1.5 kilometres from Kumaralli, it is located amid the jungle. Trekking can be done from the base, Bhagati, which is a 10 km, three-hour walk. Otherwise, trekkers can cross Kukke Subramanya, located in Dakshina Kannada district of Pushpagiri Range. The trekking zone can be approached from Pushpagiri or from Kumaraparvata peaks. The Eastern entrance can be reached from Beedehalli via Heggademane temple and the Western entrance from Kukke Subramanya via Giri gadde. However, the entrance through Beedehalli is less strenuous.</p>
-          </div>
-        </div>
-<!-- <a id="date" name="date"></a> -->
-        <div class="desc" id="dates" name="dates">
-          <div class="section-title">
-            <h2>DATES AND RATES</h2>
-          </div>
-          <div class="overview_cont">
-            <p>Pushpagiri (Kumara Parvatha), at 1,712 metres (5,617 ft), is the highest peak in Pushpagiri Wildlife Sanctuary in the Western Ghats of Karnataka. It is located in the Somwarpet Taluk, 20 kilometres from Somwarpet in the northern part of Kodagu district on the border between Dakshina Kannada and Kodagu district and hassan districts. It is 2nd highest peak of Karnataka.</p>
-            <p>The Pushpagiri or Subramanya Hills (also referred as Kumaraparvatha) is the second-highest peak of Kodagu, and sixth highest peak in Karnataka</p>
-            <p>About 36 kilometres from Somwarpet and 1.5 kilometres from Kumaralli, it is located amid the jungle. Trekking can be done from the base, Bhagati, which is a 10 km, three-hour walk. Otherwise, trekkers can cross Kukke Subramanya, located in Dakshina Kannada district of Pushpagiri Range. The trekking zone can be approached from Pushpagiri or from Kumaraparvata peaks. The Eastern entrance can be reached from Beedehalli via Heggademane temple and the Western entrance from Kukke Subramanya via Giri gadde. However, the entrance through Beedehalli is less strenuous.</p>
-          </div>
-        </div>
-        <div class="desc" id="offers" name="offers">
-          <div class="section-title">
-            <h2>Offers</h2>
-          </div>
-          <div class="overview_cont">
-            <p>Pushpagiri (Kumara Parvatha), at 1,712 metres (5,617 ft), is the highest peak in Pushpagiri Wildlife Sanctuary in the Western Ghats of Karnataka. It is located in the Somwarpet Taluk, 20 kilometres from Somwarpet in the northern part of Kodagu district on the border between Dakshina Kannada and Kodagu district and hassan districts. It is 2nd highest peak of Karnataka.</p>
-            <p>The Pushpagiri or Subramanya Hills (also referred as Kumaraparvatha) is the second-highest peak of Kodagu, and sixth highest peak in Karnataka</p>
-            <p>About 36 kilometres from Somwarpet and 1.5 kilometres from Kumaralli, it is located amid the jungle. Trekking can be done from the base, Bhagati, which is a 10 km, three-hour walk. Otherwise, trekkers can cross Kukke Subramanya, located in Dakshina Kannada district of Pushpagiri Range. The trekking zone can be approached from Pushpagiri or from Kumaraparvata peaks. The Eastern entrance can be reached from Beedehalli via Heggademane temple and the Western entrance from Kukke Subramanya via Giri gadde. However, the entrance through Beedehalli is less strenuous.</p>
-          </div>
-        </div>
+
+        <p>Why boys should have all the fun? we also organise tour only for women that will be lead by our lady trek leaders.</p>
+        <p>Give us a call at +91- 7903831603, let your school kids love the nature or become future mountaineer.</p>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-12">
-        
-      </div>
+    </section>
 
-  
-</div>
+<!-- trek details section 1 -->
+<section class="main_cont">
+  <div class="container">
+    <div class="title">
+      <h2>Only Women</h2>
+      <p>Best Campsite near Bangalore</p>
+      <ul class="slick-slider">
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img1">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Gokarna Beach Trek</div>
+    <div class="pricing">₹ 3,999</div>
+  </div>
+  <div class="card-body">
+    <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              2 Days
+          </div>
 
 
 
-</div>
+        </div>
+  </div>
+</a>
+  </li>
+  <!-- 2nd trip -->
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img2">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Skandagiri Sunrise Trek</div>
+    <div class="pricing">₹ 1,600</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
 
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              1 Day
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+  <!-- 3rd trip -->
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Uttari Betta Trek</div>
+    <div class="pricing">₹ 1,300</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              1 Day
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+  <!-- 4th trip -->
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img4">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Makalidurga Trek</div>
+    <div class="pricing">₹ 1,400</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              1 Day
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+  <!-- 5th trio -->
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img5">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Tadiandamol Trek – Coorg (Bangalore To Bangalore)</div>
+    <div class="pricing">₹ 4000</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              2 Days
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+
+  <!-- 6th tri -->
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img6">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Beas Kund Trek</div>
+    <div class="pricing">₹ 5,500</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              HIMACHAL PRADESH
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              2 Days
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+   <!-- 7th tri -->
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img7">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Kumara Parvatha Trek and Camping</div>
+    <div class="pricing">₹ 4,000</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              2 Days
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+   <!-- 6th tri -->
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img8">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Savandurga Trek</div>
+    <div class="pricing">₹ 1,300</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              1 Day
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+   <!-- 6th tri -->
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img9">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Bangalore Cycling- Route 1</div>
+    <div class="pricing">₹ 800</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              1 Day
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+  <li>
+    <a href="" class="card">
+  <div class="card-img-top img10">
+    <div class="coupon-code-badge coupon-code-badge-small">
+      <div class="coupon-code">2 offers</div></div>
+    <div class="name">Kudremukh Trek</div>
+    <div class="pricing">₹ 4,200</div>
+  </div>
+  <div class="card-body">
+       <div class="item-content">
+          
+            <div class="field duration truncatable">
+               <i class="icon fa fa-map-marker skin-color"></i>
+              Karnataka
+             
+            </div>
+
+          <div class="field availability-summary truncatable">
+            <i class="icon fa fa-clock-o skin-color"></i>
+              2 Days
+          </div>
+
+
+
+        </div>
+  </div>
+</a>
+  </li>
+</ul>
+    </div>
+  </div>
 </section>
 
+<!-- <section class="pt-5 mt-5">
+ <div class="container"> 
+  <div class="content text-align-left">
+          <h4>Why you should go&nbsp;Camping?</h4>
 
+<p>There is another reason to camp for anyone, you ask. Many people like to separate themselves from technology and to reconnect with nature. Many families camp away from all the stresses at home to strengthen their relationships. You learn necessary survival skills for the outdoors, like putting up your tent, starting a fire, cooking food with few ingredients. To different people, Camping means different things.</p>
 
+<p>&nbsp;</p>
 
+<h4>1. Camping Traditions:</h4>
+
+<p>Camping started in national parks more than 100 years, and a large number of children have gained their appreciation for their time outdoors, even camping as parents and grandparents. Are you going to transmit this tradition?</p>
+
+<h4 class="pt-4">2. It Helps you Explore Nature:</h4>
+
+<p>It's an immersive experience to camp, whether you're camping in a campsite or parking your RV in the wilderness. Rain, wind, and snow feel the campers. They could watch the desert in their natural surroundings. And the sunshine! At different times of the day, people can see natural features, such as mountains, seashores, or dunes.</p>
+
+<p>The night sky in the outdoors allows you to witness constellations, stars, planets, count shooting stars. You can enjoy the sounds of nature and the chirping of birds — people camp for an adventure in life, more than for any other reason.</p>
+
+<h4 class="pt-4">3. It Improves Health:</h4>
+
+<p>It's a good body (and mind) camping. Camping in the backland's physical demands explicitly finds themselves to be exercise. But there are health benefits to every form of Camping. Some are simple, such as Camping or walking. It increases current mental health. The outdoor exercise was related to the reduction in depression. You get in touch with the natural rhythms of circadian sleep under the stars, which form the basis for a good rest and health.</p>
+
+<h4 class="pt-4">4. Camping Manifests Survival Crafts:</h4>
+
+<p>During Camping, we work as a team and solve problems. We manage the campsite by collecting water, purifying water, starting a fire, pitching tents, and enjoy the rewards of being outdoors with friends and family. Skills acquired during camping help you learn survival. You gain confidence and self-worth. You can earn knowledge by spending time in the outdoors and Camping. It takes just a little effort and direction, and in no time can you set up tents!</p>
+
+<h4 class="pt-4">5. Make new connections:</h4>
+
+<p>Private electronic tools substituted for entertainment for face-to-face conversations. The memories that life-long shape relationships are shared experiences. The camp is an excellent time, without distractions, to get back to the basics. To share history. Sharing history. Together you're silent. Treat yourself to a dehydrated meal like a 4-star kitchen.</p>
+
+<p>&nbsp;</p>
+
+<h4 class="pt-4"><strong>Do's and Don'ts of Camping</strong></h4>
+
+<ul class="terms_list">
+  <li>Don't forget the essential campsites.</li>
+  <li>Leave a copy for your route to verify the pet rule of the campsite.</li>
+  <li>Arrive before evening.</li>
+  <li>Follow the procedure of fire safety.</li>
+  <li>Do not leave food without any attention.</li>
+  <li>Make your contribution to minimizing your environmental footprint.</li>
+</ul>
+
+        </div>
+ </div>
+</section> -->
 
 
 <!-- footer starts -->
@@ -393,16 +592,16 @@
 <div class="col-lg-3 col-md-3 col-12 p-4" >
         <h6 style="white-space: nowrap;">About Us</h6>
         <ul class="list-unstyled ">
-          <li class="pt-3"><a href="" class="text-white ">The Company</a></li>
-<li class="pt-3"><a href="" class="text-white ">The Team</a></li>
+          <li class="pt-3"><a href="archive.html" class="text-white ">The Company</a></li>
+<li class="pt-3"><a href="specialissue.html" class="text-white ">The Team</a></li>
 <li class="pt-3"><a href="bookpublication.html" class="text-white ">Terms and Conditions</a></li>
 </ul>
       </div>
      <div class="col-lg-3 col-md-3 col-12 p-4" >
         <h6 style="white-space: nowrap;">Support Info</h6>
         <ul class="list-unstyled ">
-          <li class="pt-3"><a href="" class="text-white ">beawesome@milestotrek.com</a></li>
-<li class="pt-3"><a href="" class="text-white ">Phone: +91-7903831603</a></li>
+          <li class="pt-3"><a href="archive.html" class="text-white ">beawesome@milestotrek.com</a></li>
+<li class="pt-3"><a href="specialissue.html" class="text-white ">Phone: +91-7903831603</a></li>
 </ul>
       </div>
       
@@ -436,40 +635,76 @@
                </div>
 </footer>
  
-  <!-- <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script> -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>
-<!-- image gallery -->
-<!-- partial -->
-  <!-- <script src='https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.js'></script> -->
-<script src='https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/lightgallery.umd.js'></script>
-<script src='https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/plugins/zoom/lg-zoom.umd.js'></script>
-<script src='https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.js'></script>
-<script src='https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/plugins/thumbnail/lg-thumbnail.umd.js'></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
 <script type="text/javascript">
-   jQuery("#animated-thumbnails-gallery")
-  .justifiedGallery({
-    captions: true,
-    thumbnail: true,
-    
-  })
-  .on("jg.complete", function () {
-    window.lightGallery(
-      document.getElementById("animated-thumbnails-gallery"),
-      {
-        autoplayFirstVideo: true,
-        pager: false,
-        plugins: [lgThumbnail],
-        mobileSettings: {
-          controls: false,
-          showCloseIcon: true,
-          download: false,
-          rotate: false
-        }
-      }
-    );
+  (function($){
+  'use strict';
+  $(document).ready(function(){
+    $('.active-slider').owlCarousel({
+      items: 1,
+      loop: true,
+      nav: true,
+      autoplay: false,
+      dots: true,
+  //icon for nav
+      navText: ['<i class="next"></i>', '<i class="prev"></i>']
+    });
   });
+})(jQuery);
 </script>
-</body>
-</html>
+<script>
+  // Binding of init has to be before intialization!
+$('.slick-slider').on('init', (event, slick, currentSlide) => {
+  let slideIndex = slick.currentSlide;
+  let slidesLength = slick.slideCount;
+})
+
+// Initialise.
+$('.slick-slider').slick({
+  slidesToShow: 3,
+  dots: true,
+  //centerMode: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+})
+
+let slideIndex = $('.slick-slide:not(.slick-cloned)').length
+  $('.add-slide').on('click', () => {
+    slideIndex++
+    $('.slick-slider').slick('slickAdd','<li><h3>' + slideIndex + '</h3></li>')
+    $('.slick-slider').slick('slickGoTo', 'slickCurrentSlide' + 1)
+  })
+
+  $('.remove-slide').on('click', () => {
+    $('.slick-slider').slick('slickRemove', slideIndex - 1)
+      if (slideIndex !== 0) {
+        slideIndex--
+      }
+  })
+
+  $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".header-top").css('display', 'none');
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".header-transparent").addClass("fixed-position");
+            $(".header-top").css('display', 'block');
+            
+        }
+    });
+});
+</script>
+<script>
+new WOW().init();
+</script>
+  </body>
+  </html>

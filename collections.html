@@ -29,9 +29,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- owl carousel -->
     
-  <body id="page-top" data-spy="scroll" data-taget=".trip-nav" class="theteam contact">
-  <header class="header-transparent" style="z-index: 999;">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js'></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+    <!-- slick slider -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css'>
+    
+  </head>
+  <body class="collections destination">
+    <header class="header-transparent " style="z-index: 999;">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -50,7 +58,7 @@
               </div>
             </li>
 
-            <li class="hidden-xs hidden-sm"><a href="mailto:highfive@Milestotrek.org" class="skip-url-slug-check" title="highfive@Milestotrek.org"><i class="fa fa-envelope" aria-hidden="true"></i>  highfive@Milestotrek.org</a></li>
+            <li class="hidden-xs hidden-sm"><a href="mailto:highfive@treksandtrails.org" class="skip-url-slug-check" title="highfive@treksandtrails.org"><i class="fa fa-envelope" aria-hidden="true"></i>  highfive@treksandtrails.org</a></li>
           </ul>
 
         
@@ -61,7 +69,7 @@
           <!-- page logo -->
             <strong class="logo">
               <a href="/">
-                  <img alt="Miles to Trek India Logo" class="no-focus " id="logo" sizes="(min-width: 1200px) 10vw, (min-width: 768px) 30vw, 100vw" title="Miles to Trek India Logo" srcset="assets/images/logo.png" src="assets/images/logo.png">
+                  <img alt="Treks and Trails India Logo" class="no-focus " id="logo" sizes="(min-width: 1200px) 10vw, (min-width: 768px) 30vw, 100vw" title="Treks and Trails India Logo" srcset="assets/images/logo.png" src="assets/images/logo.png">
               </a>
             </strong>
 
@@ -73,7 +81,7 @@
                 <i class="fa fa-phone" aria-hidden="true"></i>
               </a>
               <!-- Email -->
-              <a href="mailto:highfive@Milestotrek.org" title="highfive@Milestotrek.org" class="mobile-header__icons message">
+              <a href="mailto:highfive@treksandtrails.org" title="highfive@treksandtrails.org" class="mobile-header__icons message">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
               </a>
               <!-- search drop -->
@@ -87,7 +95,7 @@
               <a href="#" class="nav-close"></a>
 
               <!-- main navigation of the page -->
-              <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-shrink" id="nav-bar nav" data-spy="affix" data-offset-top="50">
+           <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-shrink" id="nav-bar nav" data-spy="affix" data-offset-top="50">
   <div class="container">
   <!--<a class="navbar-brand" href="index.html" id="logo-mbl"><img src="images/image003.jpg" width="120px"></a>-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,8 +150,7 @@
      </ul>
   </div>
 </div>
-</nav>
-            
+</nav> 
            
              
             </div>
@@ -155,65 +162,238 @@
   </div>
 </header>
  <!-- partial:index.partial.html -->
-  <section class="banner-area team">
+ <section class="banner-area trips">
     <div class="container">
-      <div class="title">
-        <h1>Contact Us</h1>
-      </div>
+      <div class="collection-slide destination">
+
+  <div class="title">
+    <h1>All Collections</h1>
+  </div>
+
+    <div class="hero-tagline tagline">Relax, Refresh and Reconnect: Weekend Gateway Experience</div>
+
+</div>
     </div>
   </section>
 
-<section class="main_cont teamdtls">
+<!-- trek details section 1 -->
+<section class="main_cont">
   <div class="container">
     <ul class="breadcrumb_sec">
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html" title="Home">Home</a>
           </li>
-       
-          <li>Contact Us</li>
+         
+          <li title="All Collections">All Collections</li>
         </ul>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-8 col-12">
-        <h2>Write us</h2>
-        <p class="c_ttl">Contact us from here</p>
-        <div class="trek_form contact">
-           <form id="contact-form" class="contact-fieldset" method="POST" enctype="multipart/form-data" name="contactform" action="mail.php">
-                                    <div class="form-group">
-                                      <label for="nameFormControlInput1">Name<sup>*</sup></label>
-                                      <input type="text" class="form-control" required id="nameFormControlInput1"></div>
-                                    <div class="form-group mb-3">
-                                      <label for="emailFormControlInput1">Email<sup>*</sup></label>
-                                        <input type="email" class="form-control" id="emailFormControlInput1" name="email" required> </div>
-                                    <div class="form-group mb-3">
-                                      <label for="phoneFormControlInput1">Phone Number<sup>*</sup></label>
-                                        <input type="number" class="form-control" id="phoneFormControlInput1" name="phone" required> </div>
-                                        <div class="form-group mb-3">
-                                      <label for="dateFormControlInput1">Preferred Travel Date</label>
-                                        <input type="date" class="form-control picker" id="dateFormControlInput1" name="date" required> </div>
-                                    <div class="form-group mb-3">
-                                      <label for="commentFormControlInput1">Message</label>
-                                        <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
-                                    </div>
-                                    <button type="submit" name="send" class="btn-enquire">Send Enquire</button>
-                                </form>
-        </div>
-      </div>
+        <!-- 1st row starts -->
+     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-        <h2>Contacts</h2>
-        <p class="c_ttl">Information</p>
-        <ul class="text-list text-list-line">
-                            <li><b>Address</b><hr><p>Bangalore</p></li>
-                            <li><b>Web</b><hr><p>domain.com</p></li>
-                            <li><b>Email</b><hr><p>info@domain.com</p></li>
-                            <li><b>Phone</b><hr><p>8787887878</p></li>
-                            <li><b>Skype</b><hr><p>example.name</p></li>       
-                        </ul>
-      </div>
+    <a href="" class="card_collection">
+  <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Karnatak</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
     </div>
-    
+  </div>
+</div>
+</a>
+  </div>
+  <!-- 2nd trip -->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Andra Pradesh</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+  <!-- 3rd trip -->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">GOA</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+</div>
+  <!-- 4th trip -->
+  <div class="row mt-5">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Maharastra</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+  <!-- 5th trio -->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+  <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Jammu & Kashmir</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Utharakhand</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Himachal Pradesh</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+  <!-- 5th trio -->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Nepal</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Sikkim</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+  <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Karnatak</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+  <!-- 5th trio -->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Karnatak</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Karnatak</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+    <a href="" class="card_collection">
+   <div class="coll_card">
+  <img src="assets/images/IMG_20210306_113811-01-e1624821058123.jpeg" alt="collection" class="image-fluid card-img-top">
+  <div class="overlay">
+    <h3 class="header">Karnatak</h3>
+    <div class="text">
+      <p class="tours text-white">Tours <br> 6</p>
+      <p class="pric text-white ml-4">Starting from<br> ₹ 1,199</p>
+    </div>
+  </div>
+</div>
+</a>
+  </div>
+  <!-- 5th trio -->
+  
+</div>
+
+    </div>
   </div>
 </section>
+
+
+
 
 
 
@@ -225,18 +405,19 @@
         <h6 style="white-space: nowrap;">Quick Links</h6>
         <ul class="list-unstyled " >
           <li class="pt-3"><a href="index.html" class="text-white ">Home</a></li>
-<li class="pt-3"><a href="collections.html" class=" text-white">Collections</a></li>
-<li class="pt-3"><a href="destination.html" class=" text-white">Destination</a></li>
-<li class="pt-3"><a href="trip-types.html" class="text-white ">Trip Type</a></li>
-<li class="pt-3"><a href="contact.html" class="text-white ">Contact Us</a></li>
+<li class="pt-3"><a href="title.html" class=" text-white">Destination</a></li>
+<li class="pt-3"><a href="associateeditor.html" class="text-white ">Trip Type</a></li>
+<li class="pt-3"><a href="submission.html" class="text-white ">About Usk</a></li>
+<li class="pt-3"><a href="currentissue.html" class="text-white ">Contact Us</a></li>
 </ul>
       </div>
 
 <div class="col-lg-3 col-md-3 col-12 p-4" >
         <h6 style="white-space: nowrap;">About Us</h6>
         <ul class="list-unstyled ">
-<li class="pt-3"><a href="meet-our-team.html" class="text-white ">Meet Our Team</a></li>
-<li class="pt-3"><a href="terms-and-conditions.html" class="text-white ">Terms and Conditions</a></li>
+          <li class="pt-3"><a href="" class="text-white ">The Company</a></li>
+<li class="pt-3"><a href="" class="text-white ">The Team</a></li>
+<li class="pt-3"><a href="bookpublication.html" class="text-white ">Terms and Conditions</a></li>
 </ul>
       </div>
      <div class="col-lg-3 col-md-3 col-12 p-4" >
@@ -264,19 +445,86 @@
 <div class="container-fluid foot">
             <div class="container text-center">
               
-              <ul class="list-unstyled d-flex d-inline justify-content-center">
-                <li class="pt-2  mb-0"><a href=""><i class="fa fa-instagram " ></i></a></li>
-                <li class="pt-2  mb-0 pl-3"><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                <li class="pt-2  mb-0 pl-3"><a href=""><i class="fa fa-twitter" ></i></a></li>
-                <li class="pt-2  mb-0 pl-3"><a href=""><i class="fa fa-linkedin" ></i></a></li>
-                <li class="pt-2  mb-0 pl-3"><a href=""><i class="fa fa-instagram" ></i></a></li>
+              <ul class="list-unstyled d-flex d-inline justify-content-center" style="">
+                <li class="pt-2  mb-0 pl-"><a href=""><i class="fa fa-instagram " style="font-size:23px;"></i></a></li>
+                <li class="pt-2  mb-0 pl-5"><a href=""><i class="fa fa-facebook" style="font-size:23px;"></i></a></li>
+                <li class="pt-2  mb-0 pl-5"><a href=""><i class="fa fa-twitter" style="font-size:23px;"></i></a></li>
+                <li class="pt-2  mb-0 pl-5"><a href=""><i class="fa fa-linkedin" style="font-size:23px;"></i></a></li>
+                <li class="pt-2  mb-0 pl-5"><a href=""><i class="fa fa-instagram" style="font-size:23px;"></i></a></li>
               </ul>
                  <p class="text-white pt-2 pb-2  mb-0 d-flex justify-content-center">
                  Copyright © 2024</p>
                </div>
                </div>
 </footer>
+ 
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>
+<script type="text/javascript">
+  (function($){
+  'use strict';
+  $(document).ready(function(){
+    $('.active-slider').owlCarousel({
+      items: 1,
+      loop: true,
+      nav: true,
+      autoplay: false,
+      dots: true,
+  //icon for nav
+      navText: ['<i class="next"></i>', '<i class="prev"></i>']
+    });
+  });
+})(jQuery);
+</script>
+<script>
+  // Binding of init has to be before intialization!
+$('.slick-slider').on('init', (event, slick, currentSlide) => {
+  let slideIndex = slick.currentSlide;
+  let slidesLength = slick.slideCount;
+})
 
+// Initialise.
+$('.slick-slider').slick({
+  slidesToShow: 3,
+  dots: true,
+  //centerMode: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+})
 
-</body>
-</html>
+let slideIndex = $('.slick-slide:not(.slick-cloned)').length
+  $('.add-slide').on('click', () => {
+    slideIndex++
+    $('.slick-slider').slick('slickAdd','<li><h3>' + slideIndex + '</h3></li>')
+    $('.slick-slider').slick('slickGoTo', 'slickCurrentSlide' + 1)
+  })
+
+  $('.remove-slide').on('click', () => {
+    $('.slick-slider').slick('slickRemove', slideIndex - 1)
+      if (slideIndex !== 0) {
+        slideIndex--
+      }
+  })
+
+  $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".header-top").css('display', 'none');
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".header-transparent").addClass("fixed-position");
+            $(".header-top").css('display', 'block');
+            
+        }
+    });
+});
+</script>
+  </body>
+  </html>
