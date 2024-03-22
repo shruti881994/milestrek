@@ -1462,6 +1462,7 @@ color: #fc3f00;
 }
 .justified-gallery > a, .justified-gallery > div, .justified-gallery > figure{height: auto!important;}
 .banner-area.treking .gallery_btn {
+    cursor:pointer;
     width: auto!important;
     border-radius: 4px;
     border-color: #ccc;
