@@ -8,6 +8,8 @@
 body p{
      color: #333;
 }
+.home .owl-dots{top: -40px;}
+.owl-carousel button.owl-dot{background: #fff;}
 /*slider-bg-setup*/
 .slider-items {
     position: relative;
